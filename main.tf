@@ -116,7 +116,7 @@ resource "cloudflare_record" "seed-nodes" {
     for item in setproduct(local.domain-ids, local.seed-ips) :
     "${item[0]}-${item[1]}" => { zone : item[0], ip : item[1] }
   }
-  name    = "seed-node"
+  name    = "seed-raven"
   zone_id = each.value.zone
   value   = each.value.ip
   type    = "A"
