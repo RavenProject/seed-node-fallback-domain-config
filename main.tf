@@ -18,7 +18,7 @@ terraform {
 
 locals {
   domain-ids = [
-    # "cb01b4516b4c5d2998774aa887b0b99c", # ravencoin.org
+    "cb01b4516b4c5d2998774aa887b0b99c", # ravencoin.org
     "0974ebf9d4d3724fc1ae86c2522d737a", # ravencoin.com
   ]
 
