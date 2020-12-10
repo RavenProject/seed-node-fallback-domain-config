@@ -8,3 +8,4 @@ Terraform uses a cloudflare key that only has permission to edit ravencoin.org a
 
 This can be wired up to GitHub actions, but has not been.
 
+bitactivate.com DNS currently manually managed.
